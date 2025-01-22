@@ -1,0 +1,45 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore build directories
+/build/
+/dist/
+/out/
+
+# Ignore dependency directories
+/node_modules/
+/vendor/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore compiled files
+*.o
+*.so
+*.dll
+*.exe
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore configuration files
+*.env
+config.yaml
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore generated documentation
+/docs/
+
+# Ignore personal settings
+*.sublime-project
+*.sublime-workspace
