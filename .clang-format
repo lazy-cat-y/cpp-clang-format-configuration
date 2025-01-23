@@ -1,6 +1,6 @@
 Language: Cpp
 # BasedOnStyle: Google
-AccessModifierOffset: 0
+AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignArrayOfStructures: Right
 AlignConsecutiveAssignments:
@@ -51,16 +51,16 @@ AlwaysBreakBeforeMultilineStrings: false
 BinPackArguments: false
 BreakBeforeBraces: Custom
 BraceWrapping:
-    AfterCaseLabel: true
-    AfterClass: true
+    AfterCaseLabel: false
+    AfterClass: false
     AfterControlStatement: Never
-    AfterEnum: true
-    AfterFunction: true
-    AfterNamespace: true
-    AfterStruct: true
-    AfterUnion: true
+    AfterEnum: false
+    AfterFunction: false
+    AfterNamespace: false
+    AfterStruct: false
+    AfterUnion: false
     AfterExternBlock: true
-    BeforeCatch: true
+    BeforeCatch: false
     BeforeElse: false
     BeforeLambdaBody: false
     BeforeWhile: false
@@ -152,11 +152,11 @@ RequiresExpressionIndentation: OuterScope
 SortIncludes: CaseSensitive
 SortUsingDeclarations: LexicographicNumeric
 SpaceAfterCStyleCast: false
-SpaceAfterTemplateKeyword: false
+SpaceAfterTemplateKeyword: true
 SpaceAroundPointerQualifiers: Before
 SpaceBeforeAssignmentOperators: true
 SpaceBeforeCaseColon: true
-SpaceBeforeCpp11BracedList: false
+SpaceBeforeCpp11BracedList: true
 SpaceBeforeCtorInitializerColon: true
 SpaceBeforeInheritanceColon: true
 SpaceBeforeParens: ControlStatements
